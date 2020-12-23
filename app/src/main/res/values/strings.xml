@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">LoginUI</string>
+    <string name="abc">
+        Ut blandit elit nec erat sagittis, et mattis tortor pellentesque. Nullam fermentum diam in ligula tempus, ac molestie elit hendrerit. Nullam venenatis facilisis volutpat. Vestibulum commodo urna odio, at convallis sem convallis et. Pellentesque urna mi, maximus et egestas a, feugiat quis turpis. Nam quis feugiat metus, commodo bibendum massa. Duis sagittis tortor vitae eros tempor condimentum vitae et enim. Fusce eu varius neque. Maecenas fringilla erat ac orci vulputate, non hendrerit sapien fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+    </string>
+</resources>

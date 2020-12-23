@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@mipmap/bg"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign up"
+        android:layout_marginTop="40dp"
+        android:textSize="32sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend"
+        android:layout_margin="20dp"
+        android:textSize="16sp"
+        android:gravity="center"/>
+    <ImageView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@mipmap/add_photo"
+        android:layout_margin="10dp"
+        android:gravity="center">
+    </ImageView>
+<!--    android:src="" 指定前景资源，背景扩大后，图片本身按照比例缩放-->
+    <ProgressBar
+        android:id="@+id/pro_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:visibility="invisible"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="35dp"
+        android:inputType="textEmailAddress"
+        android:hint="メールアドレス"
+        android:gravity="center"
+        android:textColorHint="#cccccc"
+        android:background="@mipmap/border"/>
+    <EditText
+        android:id="@+id/pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:inputType="textPassword"
+        android:hint="パスワード"
+        android:gravity="center"
+        android:textColorHint="#cccccc"
+        android:maxLength="12"
+        android:background="@mipmap/border"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:inputType="phone"
+        android:hint="電話番号"
+        android:gravity="center"
+        android:textColorHint="#cccccc"
+        android:background="@mipmap/border"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:inputType="number"
+        android:hint="認証コード"
+        android:gravity="center"
+        android:textColorHint="#cccccc"
+        android:background="@mipmap/border"/>
+    <Button android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="35dp"
+        android:text="Register"
+        android:background="@mipmap/btn"
+        android:onClick="register">
+    </Button>
+
+</LinearLayout>

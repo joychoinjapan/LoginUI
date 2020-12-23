@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:foreground="@mipmap/ic_launcher_round"
+    android:foregroundGravity="center">
+
+<!--    帧布局中，越前面的代码越在下方
+android:foreground调整前景图片 一定出现在最上方-->
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:background="#C2DCBB"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:background="#C7AADF"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="#97A4DF"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:background="#D8BB82"
+        android:layout_gravity="center"/>
+</FrameLayout>
